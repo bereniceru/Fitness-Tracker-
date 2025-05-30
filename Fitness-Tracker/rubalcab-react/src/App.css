@@ -1,0 +1,67 @@
+/* Global Styles */
+body {
+  font-family: "Monaco", monospace;
+  background-color: #9daad4;
+  color: #3d385a;
+  margin: 45px;
+  padding: 10px;
+}
+
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 5px 0 0;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+/* Form */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* added a background color so the buttons dont appear white */
+input, select, button {
+  font-family: "Monaco", monospace;
+  margin: 5px;
+  background-color: #99bad8;
+  font-size: 16px;
+  width: 120px; /* adjusted the sizing as well */
+  height: 50px; 
+}
+
+
+/* table Styles */
+table {
+  width: 50%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+/* adjusted the thickness of border */
+th, td {
+  border: 2px solid #682f42;
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #7a7fc9;
+}
+
+button {
+  margin: 0 10px;
+  padding: 10px 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+{
+    "name": "rubalcab-rest-api",
+    "version": "1.0.0",
+    "description": "REST API for Exercise Tracking Application",
+    "main": "exercises.mjs",
+    "scripts": {
+      "start": "node exercises.mjs",
+      "dev": "nodemon exercises.mjs",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "dotenv": "^16.0.3",
+      "express": "^4.18.2",
+      "express-validator": "^7.0.1",
+      "mongoose": "^7.0.3"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.22"
+    },
+    "type": "module"
+  }
