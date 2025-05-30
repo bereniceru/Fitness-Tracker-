@@ -1,6 +1,6 @@
 # Fitness Tracker
 
-A full-stack MERN application for tracking exercise workouts.
+Portfolio project for CS290 Web Development, A full-stack MERN application for tracking exercise workouts.
 
 ## Features
 - Adds new exercises with reps, weight, unit, and date
