@@ -3,10 +3,11 @@
 A full-stack MERN application for tracking exercise workouts.
 
 ## Features
-- Add new exercises with reps, weight, unit, and date
+- Adds new exercises with reps, weight, unit, and date
 - View all exercises in a table format
 - Edit existing exercises
-- Delete exercises
+- Delete exercises in the table
+- uses MongoDB to handle data
 
 ## Screenshots
 
@@ -14,14 +15,14 @@ A full-stack MERN application for tracking exercise workouts.
 ![Create Exercise Page](create-exercise-page.png)
 
 
-## Tech Stack
+## Contains
 - **Frontend:** React with Vite
 - **Backend:** Node.js with Express
 - **Database:** MongoDB
 - **Styling:** CSS
 
 ## Installation
-1. Clone the repository
+1. Clone the repository or download the files
 2. Install dependencies for both frontend and backend
-3. Set up MongoDB connection
-4. Run both servers
+3. Set up MongoDB connection on the .env file 
+4. Run both servers and open in browser
